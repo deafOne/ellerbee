@@ -1,0 +1,474 @@
+
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+
+body {
+          font-family:'Open Sans', sans-serif;
+    font-size:14px;
+    background: linear-gradient(to right, lightgray, black);;
+
+}
+
+a{ 
+text-decoration: none;
+color:red;
+font-weight: 600;
+ }
+
+ a:hover{ 
+text-decoration: none;
+color: white;
+opacity: 0.8;
+font-weight: 900;
+ }
+
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Ropa Sans', sans-serif;
+}
+
+h1 {
+    line-height:50px;
+    font-weight:900;
+    font-size:40px;
+    padding:50px 20px 5px 20px;
+    text-transform:uppercase;
+    color:white;
+}
+
+
+.pad-adjust {
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+h2 {
+    line-height:50px;
+}
+h3 {
+    line-height:30px;
+    padding:5px;
+}
+h4 {
+   padding-top: 5px;
+line-height: 30px;
+padding-bottom: 0px;
+font-size: 20px;
+font-weight: 900;
+text-shadow: 0 0 24px black;
+}
+
+p {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight:300;
+    line-height:30px;
+    text-shadow: 0 0 24px black;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.space-free {
+    height:100px;
+}
+
+.g-pad-bottom {
+    padding-bottom:40px;
+}
+
+section {
+    padding-top:40px;
+    margin-top:50px;
+}
+
+.c-sts {
+   background-color:#d9534f;
+   color:#fff;
+}
+.form-control {
+        background-color: rgba(255, 255, 255, 0);
+}
+
+.pad-top {
+ padding-top:20px;
+}
+.icon-round {
+margin-top: 30px;
+font-size: 60px;
+height: 110px;
+width: 128px;
+line-height: 110px;
+color: #fff;
+margin-right: 10px;
+text-align: center;
+display: inline-block;
+border-radius: 100%;
+margin-bottom: 10px;
+border: 4px solid white;
+opacity: 0.8;
+text-shadow: 0 0 24px black;
+}
+.bk-color-red {
+    background-color:#ff0000;
+}
+
+.bk-color-green {
+    background-color:#07BB00;
+}
+
+.bk-color-light-blue {
+    background-color:#BB00BB;
+}
+
+.bk-color-blue {
+    background-color:#0052FF;
+}
+.bk-color-brown {
+    background-color:#EB8F2D;
+}
+.bk-color-black {
+   background-color:#000000;
+}
+/*=======================================
+    BOOTSTRAP STYLES
+==================================================*/
+
+.panel-heading {
+    font-size:25px;
+    font-weight:900;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+-webkit-border-top-left-radius: 0px;
+-moz-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 0px;
+-moz-border-top-right-radius: 0px;
+}
+.btn-lg, .btn-group-lg > .btn {
+border-radius: 0px; 
+
+}
+
+
+.collapsible {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 40%;
+    border: 2px solid white;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #f34f4f;
+    opacity: 0.8;
+}
+
+.content {
+    padding: 0 18px;
+    overflow: hidden;
+    background: inherit;
+
+}
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+
+.head-btn-one {
+    background-color: rgba(184, 64, 252, 1);
+     border: 0px solid #fff;
+
+}
+
+#home-sec {
+    padding-top:100px;
+    background: url(../img/2.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+   min-height:650px;
+    color:#fff;
+}
+
+#home-sec h2 {
+
+}
+
+.head-main {
+    font-size:65px ;
+    font-weight:900;
+    font-family: 'Homemade Apple', cursive;"
+    
+}
+
+#services-sec {
+  color:white;
+}
+
+#services-sec h2{
+font-family: 'Homemade Apple', cursive;"
+}
+
+
+
+/* ===========================================================
+   NAVBAR CHANGES   
+   ============================================================*/
+.navbar {
+	font-size: 14px;
+}
+
+.navbar-inverse {
+	background: #000000;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #ffffff;
+	font-weight: bolder;
+	font-size: 25px;
+    font-weight:900;
+	letter-spacing: 2px;
+}
+.navbar-inverse :hover .navbar-brand:hover {
+	color: #ffffff;	
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #FFFFFF;
+}
+
+
+/*=======================================
+    STATS SECTION STYLES
+==================================================*/
+
+#sts-img {
+     padding-bottom:50px;
+    background: url(../img/2.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+   min-height:200px;
+    color:#fff;
+}
+.stats-div {
+    text-align:center;
+    width: 100%;
+}
+
+.stats-div > h3 {
+    font-size:40px;
+    font-weight:900;
+}
+
+
+/*=======================================
+    CONTACT STYLES
+==================================================*/
+#contact-sec{
+
+}
+
+.cnt {
+width: 100%;
+min-height: 350px;
+border: 1px solid #e1e1e1;
+}
+.add {
+    font-size:20px;
+    font-weight:800;
+    padding:30px
+}
+#contact-sec h1{
+  padding:0;
+}
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+#footer {
+    background-color:#000;
+    color:#fff;
+    padding:20px 50px 20px 50px;
+    text-align:right;
+}
+
+/*=======================================
+    RESPONSIVE STYLING
+==================================================*/
+
+ @media screen and (max-width: 992px) {
+    .head-main {
+    font-size: 55px;
+}
+    .stats-div > h3 {
+    font-size: 45px;
+    }
+    #contact-sec h1{
+    font-size: 65px;
+    padding: 0px;
+ }
+     #contact-sec h4 {
+    margin-bottom: 70px;
+}
+  }
+
+  @media screen and (max-width: 768px) {
+    .head-main{
+        font-size: 26px;
+       }
+       .collapsible{
+        width:50%;
+       }
+    #contact-sec h1{
+    font-size: 60px;
+    padding: 0px;
+ }
+     #contact-sec h4 {
+    margin-bottom: 80px;
+}
+
+#services-sec h2{
+  font-size: 22px;
+}
+ .stats-div > h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+#footer{
+  font-size: 12px;
+}
+  @media screen and (max-width: 480px) {
+   .head-main, .stats-div > h3 {
+    font-size: 28px;
+    }
+   #contact-sec{
+    padding-bottom: 40px;
+ }
+    #contact-sec h1{
+    font-size: 40px;
+    padding: 0px;
+ }
+     #contact-sec h4 {
+    margin-bottom: 80px;
+}
+    #contact-sec i{
+        text-shadow: 0 0 20px white;
+  }
+#services-sec h2{
+  text-align: center;
+}
+   .add{
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding:0;
+ }
+ .icon-round {
+  height: 90px;
+  line-height: 90px;
+}
+ .col-xs-4 {
+    margin-right: -9px;
+}
+    #footer {
+        font-size: 10px;
+  }
+  }
+  @media screen and (max-width: 414px){
+    .stats-div > h3 {
+    font-size: 23px;
+  }
+    #contact-sec h1{
+        font-size: 32px;
+    }
+    #contact-sec i{
+        font-size: 20px;
+        text-shadow: 0 0 20px white;
+  }
+  .add i {
+    color: black;
+}
+.icon-round {
+  height: 110px;
+  line-height: 110px;
+  width:100px;
+}
+}
+  @media screen and (max-width: 375px) {
+       .head-main,.stats-div > h3{
+        font-size: 20px;
+ }
+   #contact-sec{
+    padding-bottom: 40px;
+ }
+    #contact-sec h1{
+    font-size: 30px;
+ }
+    #contact-sec h4 {
+    margin-bottom: 70px;
+}
+    #contact-sec .icon-round {
+        width: 96px;
+    }
+        #contact-sec i{
+        text-shadow: 0 0 20px white;
+  }
+    .collapsible {
+    width: 75%;
+}
+  p.content a{
+    font-size: 15px;
+}
+    .col-md-4.col-xs-4 {
+        padding: none;
+    }
+    .icon-round {
+  height: 90px;
+  line-height: 90px;
+}
+
+   .add{
+    font-size: 18px;
+    margin-bottom: 30px;
+ }
+    #footer {
+        font-size: 15px;
+  }
+}

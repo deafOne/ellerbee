@@ -1,0 +1,342 @@
+body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+      background-image: url(pic/trailerbk.jpg);
+      
+.bg-dark {
+    background-color: lightgray;
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+  }
+  h2 {
+      font-size: 40px;
+      text-shadow: 0 0 12px black;
+      text-transform: uppercase;
+      color: orange;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  
+  h3 {
+  	color:orange;
+  font-size: 40px;
+    text-shadow: 0 0 12px black;
+}
+  h4 {
+      font-size: 25px;
+      line-height: 1.375em;
+      color: black;
+      font-weight: 400;
+      text-shadow: 0 0 12px black;
+      margin-bottom: 30px;
+  }  
+  h5{
+    font-size: 30px;
+    text-shadow: 0 0 12px orange;
+}
+  .jumbotron {
+      background-color: white;
+      color: orange;
+      text-shadow: ;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+      border-bottom:2px solid orange;
+      margin-bottom:0px;
+		background-position: center 100%;
+	    background-image: url(pic/trailerbk.jpg);
+  }
+  .container-fluid {
+      padding: 50px 50px;
+      text-shadow: ;
+		opacity: 0.8;
+		background-color: black;
+        border-bottom:3px solid orange;
+  }
+
+.container-fluid a {
+color:orange;
+text-decoration:none;
+}
+
+  .navbar {
+      margin-bottom: 0;
+      background-color: #f2d22c !important;
+      border-bottom: 2px solid orange
+      z-index: 9999;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+      font-weight:200;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: black !important;
+      font-weight:900;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: black !important;
+      background-color: #fff !important;
+      font-weight:900;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+      font-weight:900;
+  }
+  
+div#block {
+border: 1px solid orange;
+background-color: lightgrey;
+color: orange;
+}
+
+div#mainblock h2{
+color: orange;
+text-shadow:0 0 12px black;
+font-size:50px;
+padding-top: 5%;
+margin-bottom: 0px;
+}
+
+div#mainblock h4{
+color: white;
+text-shadow:1px 1px orange;
+font-size:30px;
+margin-top:2%;
+margin-bottom:-10px;
+}
+
+div#mainblock h3{
+color: orange;
+text-shadow:0 0 12px black;
+font-size:40px;
+padding-top: 0px;
+}
+
+div#service {
+	padding:1%;
+    width: 48%;
+    display: inline;
+    height: 100%;
+    float: none;
+ }
+div#service h2{
+    color: white;
+    }
+
+ div#service h3{
+    font-size:26px;
+    }
+
+ 
+.col-sm-4, .col-sm-6, .col-sm-12{
+background-color: black;
+color: white;
+text-align: center;
+float:left;
+}
+
+.col-sm-4 h2, .col-sm-6 h2, .col-sm-12 h2{
+color: orange;
+}
+
+.col-sm-4 img, .col-sm-6 img, .col-sm-12 img{
+width: 272px;
+height: 130px;
+object-fit: cover;
+margin-bottom: 20px;
+}
+.col-sm-4 a, .col-sm-6 a, .col-sm-12 a{
+border:3px solid orange;
+background-color: white;
+font-weight: 900;
+padding: 5px;
+margin: 10px;
+text-decoration: none;
+}
+
+  span.fa {
+   color: orange;
+}
+  footer {
+	background-color:lightgrey;
+			width: 100%;
+	   background-image: url(pic/trailerbk.jpg);
+	border-bottom:none;
+}
+footer p{
+color: black;
+font-size:10px;
+text-shadow: 0 0 12px black;
+font-weight: 700;
+}
+
+footer a, footer a:hover{
+color:orange;
+text-decoration:none;
+}
+
+footer ul{
+list-style-type: none;
+color: orange;
+background-color: black;
+border: 3px solid orange;
+width: 100%;
+padding: 0;
+}
+
+footer li{
+font-size:20px;
+padding:20px;
+margin: 10px;
+display: inline;
+width: 100%;
+}
+
+  footer fa {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #f4511e;
+  }
+
+  .collapsible {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 40%;
+    border: 2px solid white;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #f34f4f;
+    opacity: 0.8;
+}
+
+.content {
+    padding: 0 18px;
+    overflow: hidden;
+    background: inherit;
+
+}
+
+/**START RESIZING**/
+
+  @media screen and (max-width: 768px) {
+    img {
+    width: 100%;
+}
+div#mainblock h2 {
+    font-size: 36px;
+}
+.col-sm-4 h2 {
+  font-size:36px;
+}
+.col-sm-4 h3{
+  font-size: 30px;
+}
+div#service h2{
+  font-size: 33px;
+}
+div#service h3{
+  font-size: 29px;
+}
+h5{
+  font-size: 15px;
+}
+footer ul{
+  width: 100%;
+}
+  footer li {
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 480px) {
+    img {
+    width: 100%;
+}
+    div#mainblock h2 {
+    font-size: 21px;
+}
+.navbar-collapse.collapse.in {
+    text-align: center;
+    }
+      footer li {
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 414px){
+    img {
+    width: 100%;
+}
+div#mainblock h2 {
+    font-size: 17px;
+  }
+.navbar-collapse.collapse.in {
+    text-align: center;
+  }
+
+
+  @media screen and (max-width: 375px) {
+    img {
+    width: 100%;
+}
+  div#mainblock h2 {
+    font-size: 15px;
+  }
+  div#mainblock h3 {
+    font-size: 36px;
+  }
+
+  div#service {
+    width:98%;
+  }
+    div#service h2{
+      font-size:28px;
+      color: orange;
+    }
+      div#service h3{
+font-size:20px;
+}
+.container-fluid{
+  margin:0;
+}
+
+h5{
+  font-size: 17px;
+}
+iframe {
+    width: 280px;
+    height: 125px;
+ }  
+
+  footer li {
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+ 
+.navbar-collapse.collapse.in {
+    text-align: center;
+  }
