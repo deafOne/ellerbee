@@ -234,6 +234,10 @@ width: 100%;
     img {
     width: 100%;
 }
+  .container-home h4{
+        font-size: 55px;
+    text-shadow: 0 0 12px orange;
+  }
 div#mainblock h2 {
     font-size: 36px;
 }
@@ -268,6 +272,13 @@ footer ul{
     img {
     width: 100%;
 }
+  .container-home h2 {
+    font-size: 25px;
+  }
+  .container-home h4{
+        font-size: 40px;
+    text-shadow: 0 0 12px orange;
+  }
     div#mainblock h2 {
     font-size: 21px;
 }
@@ -287,6 +298,13 @@ footer ul{
     img {
     width: 100%;
 }
+  .container-home h2 {
+    font-size: 22px;
+  }
+  .container-home h4{
+        font-size: 50px;
+    text-shadow: 0 0 12px orange;
+  }
 div#mainblock h2 {
     font-size: 17px;
   }
@@ -299,8 +317,15 @@ div#mainblock h2 {
     img {
     width: 100%;
 }
-  div#mainblock h2 {
-    font-size: 15px;
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.static-top{
+  width:104%;
+}
+  .container-home h2 {
+    font-size: 20px;
+  }
+  .container-home h4{
+        font-size: 40px;
+    text-shadow: 0 0 12px orange;
   }
   div#mainblock h3 {
     font-size: 36px;
