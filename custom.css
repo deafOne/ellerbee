@@ -3,12 +3,16 @@ body {
       line-height: 1.8;
       color: #818181;
       background-image: url(pic/trailerbk.jpg);
-      
+      background-size: 103%;
+      height:100%;
+      width: 100%;
+       overflow-x: hidden;
+
 .bg-dark {
     background-color: lightgray;
     color: orange;
     border-bottom: 2px solid orange;
-}
+}*/
 
   }
   h2 {
@@ -318,6 +322,9 @@ div#mainblock h2 {
 }
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.static-top{
   width:104%;
+}
+div#navbarResponsive {
+  visibility: visible;
 }
   .container-home h2 {
     font-size: 20px;
